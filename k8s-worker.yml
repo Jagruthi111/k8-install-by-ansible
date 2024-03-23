@@ -8,4 +8,4 @@
         update_cache: yes
 
     - name: Execute shell script
-      script: /home/ubuntu/Ansible_K8s/worker.sh
+      script: /home/ubuntu/Ansible_K8s/install-script.sh
