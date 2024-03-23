@@ -1,5 +1,5 @@
 ---
-- hosts: worker
+- hosts: K8-Worker-nodes
   become: yes
   tasks:
     - name: package_installation_ubuntu
